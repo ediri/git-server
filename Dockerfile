@@ -10,7 +10,7 @@ RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key
 
 RUN mkdir /var/run/sshd
 
-# Adding git user
+# Adding git user !
 RUN adduser git
 RUN mkdir -p /home/git/.ssh
 
